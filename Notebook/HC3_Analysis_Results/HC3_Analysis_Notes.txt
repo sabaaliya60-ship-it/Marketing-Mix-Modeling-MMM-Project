@@ -1,0 +1,51 @@
+MARKETING MIX MODELING - HC3 ANALYSIS
+
+BEFORE vs AFTER COMPARISON
+
+ Dataset                        Variable  Original_Coefficient  HC3_Coefficient  Original_Standard_Error  HC3_Standard_Error  Original_P_Value   HC3_P_Value
+  Monday                           const        -110445.863073   -110445.863073              5276.905249         5621.792252      5.201295e-95  3.620646e-84
+  Monday        TV_Impressions_Saturated         -32139.627131    -32139.627131              5188.945693         5176.155616      6.128785e-10  5.563046e-10
+  Monday   YouTube_Impressions_Saturated         -50944.738734    -50944.738734             11781.264383        13163.397817      1.547303e-05  1.095254e-04
+  Monday  Facebook_Impressions_Saturated         -21948.417800    -21948.417800              5192.885976         5603.858134      2.395661e-05  9.044947e-05
+  Monday Instagram_Impressions_Saturated          92959.741189     92959.741189             15370.576677        17769.222775      1.526126e-09  1.719364e-07
+  Monday      Print_Readership_Saturated          74884.359390     74884.359390              4426.106643         4390.214681      3.111429e-63  3.168794e-64
+  Monday    Radio_Listenership_Saturated           2601.857341      2601.857341              3315.624300         3263.504375      4.326348e-01  4.253219e-01
+  Monday                       Net_Price            331.653755       331.653755                14.996726           14.934524     1.449708e-105 2.084988e-106
+  Monday                    Feature_Flag          -5336.204709     -5336.204709               888.853454         1069.209122      2.006462e-09  6.126175e-07
+  Monday                    Display_Flag          -4715.655167     -4715.655167               867.674858          961.821503      5.629115e-08  9.611969e-07
+  Monday                        TPR_Flag          -1211.180028     -1211.180028              1127.129425         1293.065527      2.825960e-01  3.489518e-01
+  Monday                     Trade_Spend              0.144413         0.144413                 0.009392            0.013188      1.110022e-52  9.945653e-28
+  Monday           Weighted_Distribution           5869.910209      5869.910209              2151.042409         2463.764130      6.367609e-03  1.721640e-02
+  Monday            Numeric_Distribution          22286.098617     22286.098617              1907.093280         2124.648841      2.536779e-31  1.360192e-25
+  Monday                             CPI            337.623659       337.623659                40.003266           38.651932      3.670328e-17  2.876037e-18
+  Monday                      GDP_Growth           1760.659318      1760.659318               492.417056          514.008135      3.513381e-04  6.167532e-04
+  Monday                  Festival_Index           1740.175525      1740.175525               520.983902          519.346791      8.406844e-04  8.094033e-04
+  Monday                  Rainfall_Index           1415.824582      1415.824582               285.921629          319.132000      7.487430e-07  9.253043e-06
+Saturday                           const           6345.440672      6345.440672              5260.416800         5228.243406      2.277483e-01  2.249000e-01
+Saturday        TV_Impressions_Saturated          23446.668882     23446.668882              3925.768865         3652.182247      2.425297e-09  1.432753e-10
+Saturday   YouTube_Impressions_Saturated          21047.310929     21047.310929             13199.191899        13592.792618      1.108390e-01  1.215572e-01
+Saturday  Facebook_Impressions_Saturated          -9274.749898     -9274.749898              4918.048396         4888.842465      5.934614e-02  5.784342e-02
+Saturday Instagram_Impressions_Saturated          21057.544294     21057.544294             16230.305783        16591.671241      1.945196e-01  2.044157e-01
+Saturday      Print_Readership_Saturated           7740.692170      7740.692170              3670.635279         3541.538365      3.498818e-02  2.886433e-02
+Saturday    Radio_Listenership_Saturated          36410.134780     36410.134780              3269.242928         3188.974087      1.273684e-28  5.505666e-30
+Saturday                       Net_Price            -40.603279       -40.603279                16.458057           14.504092      1.364069e-02  5.130135e-03
+Saturday                    Feature_Flag          -3957.344779     -3957.344779               977.491721         1199.954692      5.198737e-05  9.778595e-04
+Saturday                    Display_Flag          -2517.033102     -2517.033102               944.484508         1075.280273      7.713059e-03  1.926345e-02
+Saturday                        TPR_Flag          -1352.846279     -1352.846279              1229.983830         1509.720199      2.714098e-01  3.702284e-01
+Saturday                     Trade_Spend              0.119846         0.119846                 0.010834            0.014896      2.922356e-28  9.685061e-16
+Saturday           Weighted_Distribution           7675.131070      7675.131070              2470.609799         2175.220906      1.898603e-03  4.201136e-04
+Saturday            Numeric_Distribution          65484.596167     65484.596167              2421.301720         2506.313178     6.329413e-155 4.296331e-145
+Saturday                             CPI           -743.351748      -743.351748                47.055913           55.764139      1.813380e-55  3.715328e-40
+Saturday                      GDP_Growth           2994.103484      2994.103484               552.008262          577.072517      5.979028e-08  2.167077e-07
+Saturday                  Festival_Index           6020.629104      6020.629104               562.869374          617.511271      1.530438e-26  2.385493e-22
+Saturday                  Rainfall_Index           -810.870261      -810.870261               273.587152          296.465423      3.046188e-03  6.247899e-03
+
+MODEL PERFORMANCE
+
+ Dataset  R_Squared  F_Statistic_HC3  F_P_Value_HC3
+  Monday   0.464060       232.133107            0.0
+Saturday   0.456329       198.748213            0.0
+
+OBSERVATIONS:
+HC3 adjusts standard errors to account for heteroscedasticity in statistical inference.
+HC3 does not automatically eliminate heteroscedasticity or change OLS coefficients.

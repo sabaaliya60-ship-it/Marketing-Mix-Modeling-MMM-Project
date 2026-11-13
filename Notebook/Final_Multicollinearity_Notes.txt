@@ -1,0 +1,10 @@
+STEP 20: FINAL MULTICOLLINEARITY INVESTIGATION
+
+Purpose: Check linear dependency among digital channels.
+Concepts: Standardization, Matrix Rank, SVD, Condition Number.
+
+ Dataset  Number_of_Channels  Matrix_Rank  Condition_Number  Smallest_Singular_Value
+  Monday                   3            2      2.664278e+15             5.644791e-14
+Saturday                   3            2      3.197191e+15             4.760407e-14
+
+Note: No marketing channel has been deleted.

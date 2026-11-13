@@ -1,0 +1,8 @@
+Step 17: YouTube vs Instagram Linear Regression
+ Dataset    Slope    Intercept
+  Monday 0.201588 38127.936104
+Saturday 0.205617 29094.566647
+
+Purpose: Investigate linear relationship between channels.
+Concept: Linear Regression using NumPy polyfit.
+Note: High correlation does not prove exact dependency.

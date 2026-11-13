@@ -1,0 +1,13 @@
+MONDAY VIF ANALYSIS
+==================
+
+Objective: Check multicollinearity among marketing variables.
+
+              Feature      VIF
+       TV_Impressions 9.281991
+  YouTube_Impressions      inf
+ Facebook_Impressions      inf
+Instagram_Impressions      inf
+     Print_Readership 7.284247
+   Radio_Listenership 2.103440
+          Trade_Spend 1.621599

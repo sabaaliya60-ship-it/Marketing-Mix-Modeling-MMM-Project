@@ -1,0 +1,12 @@
+STEP 30: ACTUAL DATA HILL SATURATION
+
+Technique: Hill Saturation Function
+Alpha: 1.0
+Gamma: Median of each Adstock channel
+Original Adstock columns preserved.
+New Saturated columns created.
+
+Monday Shape: (11232, 40)
+Saturday Shape: (11232, 40)
+Channels transformed:
+['TV_Impressions_Adstock', 'YouTube_Impressions_Adstock', 'Facebook_Impressions_Adstock', 'Instagram_Impressions_Adstock', 'Print_Readership_Adstock', 'Radio_Listenership_Adstock']

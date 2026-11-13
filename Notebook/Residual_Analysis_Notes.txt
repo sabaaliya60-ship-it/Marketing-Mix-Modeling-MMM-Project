@@ -1,0 +1,11 @@
+Step 17: Residual Analysis
+
+Residual = Actual Value - Predicted Value
+
+Purpose: Check prediction errors.
+Concept: Regression Diagnostics.
+
+Results:
+ Dataset  Mean_Residual  Mean_Absolute_Residual
+  Monday  -1.145912e-10            24466.485815
+Saturday  -3.349843e-11            20672.928048

@@ -1,0 +1,9 @@
+STEP 34: PREPARE REGRESSION DATASETS
+
+Purpose: Prepare datasets for regression modeling.
+Target Variable: Sales_Value
+Marketing Variables: 6
+Control Variables: 11
+Monday Shape: (11232, 18)
+Saturday Shape: (11232, 18)
+Missing Values: 0

@@ -1,0 +1,17 @@
+STEP 27: HILL SATURATION TEST
+
+Purpose: Check diminishing returns of advertising.
+Alpha = 1.0
+Gamma = 300
+Technique: Hill Saturation Function
+
+ Original_Adstock  Saturated_Value
+              100         0.250000
+              200         0.400000
+              300         0.500000
+              400         0.571429
+              500         0.625000
+
+STEP 28: HILL SATURATION GRAPH
+Graph file: Hill_Saturation_Graph.png
+Observation: Saturated response increases at a decreasing rate.

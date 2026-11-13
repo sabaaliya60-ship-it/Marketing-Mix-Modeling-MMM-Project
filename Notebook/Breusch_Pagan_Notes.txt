@@ -1,0 +1,11 @@
+STEP 18: BREUSCH-PAGAN TEST
+
+Purpose: Check heteroscedasticity.
+Concept: Statistical Hypothesis Testing.
+
+ Dataset  LM Statistic  LM p-value  F Statistic  F p-value
+  Monday   2169.881263         0.0  2688.970129        0.0
+Saturday   1482.172752         0.0  1707.189223        0.0
+
+p-value < 0.05: Evidence of heteroscedasticity.
+p-value >= 0.05: Insufficient evidence of heteroscedasticity.

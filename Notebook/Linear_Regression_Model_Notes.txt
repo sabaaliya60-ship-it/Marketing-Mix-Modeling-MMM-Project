@@ -1,0 +1,19 @@
+STEP 38: LINEAR REGRESSION MODEL TRAINING
+
+Target Variable: Sales_Value
+Model: Linear Regression
+Training Data: 80%
+Testing Data: 20%
+
+MONDAY RESULTS
+MAE: 18157.39
+RMSE: 25758.12
+R2 Score: 0.3851
+
+SATURDAY RESULTS
+MAE: 18867.98
+RMSE: 26370.52
+R2 Score: 0.3746
+
+Conclusion: Monday model performed slightly better.
+Both models have scope for improvement.

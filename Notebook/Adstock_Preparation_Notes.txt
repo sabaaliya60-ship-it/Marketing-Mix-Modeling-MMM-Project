@@ -1,0 +1,7 @@
+STEP 21: ADSTOCK DATA PREPARATION
+Purpose: Sort data by Geo, Brand, SKU and Week.
+Concept: Chronological Sorting using Pandas.
+Importance: Required for time-based Adstock calculation.
+ Dataset  Rows  Columns
+  Monday 11232       28
+Saturday 11232       28

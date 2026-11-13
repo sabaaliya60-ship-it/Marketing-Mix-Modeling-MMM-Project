@@ -1,0 +1,6 @@
+MONDAY DIGITAL CHANNEL CORRELATION
+
+                       YouTube_Impressions  Facebook_Impressions  Instagram_Impressions
+YouTube_Impressions               1.000000               0.01910               0.924463
+Facebook_Impressions              0.019100               1.00000               0.398860
+Instagram_Impressions             0.924463               0.39886               1.000000

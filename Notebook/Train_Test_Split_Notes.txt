@@ -1,0 +1,14 @@
+STEP 35: CHRONOLOGICAL TRAIN-TEST SPLIT
+
+Purpose: Train and evaluate MMM regression model.
+Technique: Chronological Train-Test Split
+Training: First 80% of weeks
+Testing: Last 20% of weeks
+Monday Training Shape: (8985, 40)
+Monday Testing Shape: (2247, 40)
+Saturday Training Shape: (8985, 40)
+Saturday Testing Shape: (2247, 40)
+Monday Training End: 2024-11-16 00:00:00
+Monday Testing Start: 2024-11-16 00:00:00
+Saturday Training End: 2024-11-18 00:00:00
+Saturday Testing Start: 2024-11-18 00:00:00

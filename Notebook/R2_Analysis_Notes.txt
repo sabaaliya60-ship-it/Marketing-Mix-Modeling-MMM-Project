@@ -1,0 +1,10 @@
+Step 17: R2 Analysis
+ Dataset       R2
+  Monday 0.854631
+Saturday 0.923432
+
+Concept: Coefficient of Determination
+Purpose: Measure variation explained by regression.
+Monday: 85.46% variation explained.
+Saturday: 92.34% variation explained.
+Note: This is not proof of causation.

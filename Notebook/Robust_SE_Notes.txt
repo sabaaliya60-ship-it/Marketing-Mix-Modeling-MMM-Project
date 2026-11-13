@@ -1,0 +1,11 @@
+STEP 19: ROBUST STANDARD ERRORS (HC3)
+
+Purpose: Reliable inference under heteroscedasticity.
+Concept: Heteroscedasticity-robust standard errors.
+Method: HC3 covariance estimator.
+
+ Dataset  OLS_Slope  Robust_Standard_Error  Robust_p_value
+  Monday   4.239489               0.023905             0.0
+Saturday   4.491031               0.017653             0.0
+
+Note: Robust SE changes standard errors and p-values, not regression coefficients.

@@ -1,0 +1,3 @@
+Total Columns: 3
+Matrix Rank: 2
+Singular Values: [1.50399603e+02 1.05242384e+02 5.54479729e-14]

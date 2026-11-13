@@ -1,0 +1,13 @@
+MMM FINAL TEST EVALUATION
+=========================
+
+Metric       Monday     Saturday
+   MAE 18157.389239 18867.977175
+  RMSE 25758.115851 26370.522273
+    R2     0.385130     0.374573
+
+Test observations: 2247 per model
+
+Models: Linear Regression
+
+Target: Sales prediction

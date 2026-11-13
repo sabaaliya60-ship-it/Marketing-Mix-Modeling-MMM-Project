@@ -1,0 +1,8 @@
+STEP 22: GEOMETRIC ADSTOCK
+Alpha = 0.5
+Formula: Current Spend + Alpha * Previous Adstock
+ Week  Original_Spend  Adstock
+    1             100    100.0
+    2               0     50.0
+    3               0     25.0
+    4               0     12.5

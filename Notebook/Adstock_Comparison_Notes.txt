@@ -1,0 +1,5 @@
+STEP 24: ADSTOCK COMPARISON ANALYSIS
+
+Alpha = 0.5
+Adstock includes current impressions and previous advertising effect.
+Business meaning: Advertising has a carryover effect.
